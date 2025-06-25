@@ -8,7 +8,7 @@ env:
 phases:
   install:
     commands:
-      - echo Entered the webhook 1 install phase
+      - echo 1 Entered the webhook 1 install phase
       # - apt-get update -y
     # Commands specified in a finally block are run after commands in the commands block. The commands in a finally block are run even if a command in the commands block fails.
     finally:
