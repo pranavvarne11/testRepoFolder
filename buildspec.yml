@@ -23,9 +23,8 @@ phases:
       - echo $INSTANCE_TYPE
       - echo $AWS_REGION
       - echo $CODEBUILD_BUILD_NUMBER
-      - echo Entered the build phase...
+      - echo Entered the build phase change...
       - echo Build started on `date`
-      - aws ec2 describe-instances
     finally:
       - echo This always runs even if the build command fails
   post_build:
